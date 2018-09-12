@@ -1,7 +1,6 @@
 //Center drawing context and make it available to primitive objects
-const canvas = document.getElementById("canvas");
-const ctx = canvas.getContext("2d");
-ctx.translate(canvas.width / 2, canvas.height / 2);
+const ctx = document.getElementById("canvas").getContext("2d");
+ctx.translate(window.innerWidth / 2, window.innerHeight / 2);
 
 //Primitive classes
 class Vertex {
