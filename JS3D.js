@@ -1,8 +1,5 @@
-//Canvas setup
+//Center drawing context and make it available to primitive objects
 const canvas = document.getElementById("canvas");
-canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
-//Center drawing context
 const ctx = canvas.getContext("2d");
 ctx.translate(canvas.width / 2, canvas.height / 2);
 
