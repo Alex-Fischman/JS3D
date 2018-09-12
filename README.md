@@ -1,5 +1,5 @@
 # JS3D
-A vanilla javascript 3D engine.
+A vanilla javascript 3D wireframe engine.
 
 To use, add a canvas element with the tag "canvas" to your HTML, and then include the JS3D script.
 Models can then be constructed using the basic primitives. For an example of making a model, refer to the Ship function in index.js.
